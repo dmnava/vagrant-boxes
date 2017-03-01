@@ -1,0 +1,7 @@
+== Hadoop & Spark VM
+
+This VM provides a working HDFS with YARN enabled MapReduce
+
+The data directory for the DataNode is set to `/data`, which is a shared directory with the host.
+
+The NameNode web interface can be accessed from http://192.168.10.20:50070
