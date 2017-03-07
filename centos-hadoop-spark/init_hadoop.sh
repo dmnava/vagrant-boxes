@@ -28,11 +28,9 @@ hdfs dfs -chmod -R 777 /tmp
 hdfs dfs -mkdir -p /var
 hdfs dfs -chmod -R 777 /var
 
-# Setup as a service and start
-#cp /vagrant/files/systemd/*.service /etc/systemd/system
-#systemctl daemon-reload
+echo "Starting YARN"
+/opt/hadoop/sbin/start-yarn.sh
 
-#echo "Starting zookeeper"
-#systemctl start zookeeper
 
-#systemctl enable zookeeper
+echo "Starting history server"
+/opt/hadoop/sbin/mr-jobhistory-daemon.sh start historyserver --config $HADOOP_CONF_DIR
