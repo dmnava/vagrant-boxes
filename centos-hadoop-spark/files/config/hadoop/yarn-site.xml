@@ -32,4 +32,9 @@
         <name>yarn.nodemanager.delete.debug-delay-sec</name>
         <value>86400</value>
     </property>
+    <property>
+      <name>yarn.nodemanager.vmem-check-enabled</name>
+      <value>false</value>
+      <description>Whether virtual memory limits will be enforced for containers.</description>
+    </property>          
 </configuration>

@@ -1,4 +1,4 @@
-HADOOP_VERSION=hadoop-2.7.3
+HADOOP_VERSION=hadoop-2.9.0
 HADOOP_MIRROR_DOWNLOAD=http://archive.apache.org/dist/hadoop/core/${HADOOP_VERSION}/${HADOOP_VERSION}.tar.gz
 
 # Install JDK 8

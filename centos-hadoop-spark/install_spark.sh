@@ -1,4 +1,4 @@
-SPARK_VERSION=spark-2.1.0
+SPARK_VERSION=spark-2.2.1
 SPARK_HADOOP_VERSION=${SPARK_VERSION}-bin-hadoop2.7
 SPARK_MIRROR_DOWNLOAD=http://archive.apache.org/dist/spark/${SPARK_VERSION}/${SPARK_HADOOP_VERSION}.tgz
 
